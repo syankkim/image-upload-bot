@@ -3,7 +3,7 @@ version = 0.1
 [default.deploy]
 [default.deploy.parameters]
 stack_name = "imgUpload"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1w9h0jstoho25"
+s3_bucket = "bucket-1"
 s3_prefix = "imgUpload"
 region = "ap-northeast-2"
 confirm_changeset = true
@@ -14,7 +14,7 @@ image_repositories = []
 [staging.deploy]
 [staging.deploy.parameters]
 stack_name = "staging-imgUpload"
-s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1w9h0jstoho25"
+s3_bucket = "bucket-1"
 s3_prefix = "staging-imgUpload"
 region = "ap-northeast-2"
 confirm_changeset = true
